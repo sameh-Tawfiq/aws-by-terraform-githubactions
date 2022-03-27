@@ -19,13 +19,13 @@ jobs:
         uses: hashicorp/setup-terraform@v1
       
       - name: Terraform Init
-        id: init
+        #id: init
         run: terraform init
       
       - name: Terraform Plan
-        id: plan
+        #id: plan
         run: terraform plan
       
       - name: Terraform Apply
-        id: apply
+        #id: apply
         run: terraform apply --auto-approve
