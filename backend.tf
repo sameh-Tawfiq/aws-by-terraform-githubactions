@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-   region = "us-west-2"
+   region = "us-east-1"
    key = "statefile"
-   bucket = "mybackendtf"
+   bucket = "backendtf-bucket01"
   }
 }
